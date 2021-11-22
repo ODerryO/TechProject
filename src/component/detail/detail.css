@@ -1,0 +1,35 @@
+.gameDescription {
+  margin-top: 5rem;
+}
+
+.thumbnailDetail {
+  width: 60vh;
+  height: 50vh;
+  float: left;
+  margin-right: 3rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 1.2rem rgba(0, 0, 0, 0.15);
+}
+
+.paragraph {
+  margin-right: 9rem;
+}
+
+.aboutGame {
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.info_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  list-style: none;
+}
