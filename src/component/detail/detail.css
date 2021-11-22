@@ -1,5 +1,6 @@
 .gameDescription {
   margin-top: 5rem;
+  background-color: #2a2e33;;
 }
 
 .thumbnailDetail {
@@ -32,4 +33,12 @@
   gap: 2rem;
   margin-top: 2rem;
   list-style: none;
+}
+
+.containerDetail p, h3, span{
+  color: #aaa;
+}
+
+.titleName{
+  font-size: 25px;
 }

@@ -26,11 +26,11 @@ function Detail (props) {
   }, [])
 
   return (
-    <div>
+    <div className="containerDetail">
       <div className="wrapperDetail">
         <div className="gameDescription">
           <img className="thumbnailDetail" src={detail.background_image} />
-          <p> About {detail.name} </p>
+          <p className="titleName"> About {detail.name} </p>
             {detail.description_raw?.split(/(\r\n|\r|\n)/gi).map((paragraph) => (
               <p style={{ margin: "20px 100px", fontSize: "15px" }}>
                 {paragraph}

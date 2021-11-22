@@ -8,7 +8,7 @@ export function getDetail(id){
 
     axios({
       method: "GET",
-      url: `https://api.rawg.io/api/games/${id}?key=189440bd7150476f8a68ecdb698b473e`
+      url: `/games/${id}?key=189440bd7150476f8a68ecdb698b473e`
     }).then(response => {
       let result2 = response.data
       let genre = response.data.genres
