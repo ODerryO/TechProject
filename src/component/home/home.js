@@ -38,7 +38,7 @@ function HomePage (props) {
       
         {props.HomeReducer.HomeGame.map ((game, id) => (
           <div className="card" key={game.id} >
-            <Link to={`/game/${game.slug}`}>
+            <a href={`/game/${game.slug}`}>
               <div className="cardGame">
                 <img className="thumbnail" src={game.background_image} alt="gambar" />
               </div>
@@ -46,9 +46,8 @@ function HomePage (props) {
               <div className="cardBody">
                 <p className="gameTittle">{game.name}</p>
                 <p className="gameGenre">Genre : {game.genres[0].name} </p>
-                <p className="gameRating">Rating : {game.rating}</p>
               </div>
-            </Link>
+            </a>
           </div>
         ))}
         <div>

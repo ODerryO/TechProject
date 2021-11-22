@@ -1,3 +1,12 @@
+.text-center h1{
+  color: #00FFFF;
+}
+
+.cardBody p {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
 .title {
   text-align: center;
 }
@@ -11,9 +20,14 @@
   margin-left: 20px;
 }
 
+.card a:-webkit-any-link {
+  text-decoration: none;
+}
+
 .thumbnail {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
+  object-fit: fill;
 }
 
 .displayCard {
@@ -26,12 +40,12 @@
   flex: 0 1 calc(50% - 20px);
 }
 
+.cardBody p {
+  text-align: center;
+}
+
 .gameTittle {
   line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-/* .cardBody {
-  display: flex;
-} */

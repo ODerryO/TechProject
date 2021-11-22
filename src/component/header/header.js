@@ -24,7 +24,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             My Game
           </Typography>
-          <Button color="inherit">Populer</Button>
+          <Button color="inherit">Category</Button>
         </Toolbar>
       </AppBar>
     </Box>
